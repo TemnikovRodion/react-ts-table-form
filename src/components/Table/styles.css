@@ -1,0 +1,31 @@
+.table {
+    width: 100%;
+    border: 1px solid #376B8D;
+    border-collapse: collapse;
+}
+
+.table th {
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+    font-weight: 400;
+    padding: 3px;
+    background: #376B8D;
+    border: 0.25px solid #6B7074;
+}
+
+.table td {
+    font-size: 12px;
+    line-height: 14px;
+    color: #2C2C2C;
+    border: 0.25px solid #6B7074;
+    padding: 5px;
+    text-align: center;
+}
+
+.delete_btn {
+    border: none;
+    background: white;
+    cursor: pointer;
+    font-weight: 500;
+}

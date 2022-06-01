@@ -1,0 +1,56 @@
+@import "@fontsource/roboto";
+
+body {
+    margin: 0;
+    font-family: "Roboto";
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #2C2C2C;
+    font-size: 32px;
+    line-height: 37.5px;
+    margin-bottom: 30px;
+}
+
+#root {
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.form_btn {
+    border: 1px solid #83BA63;
+    border-radius: 12px;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    padding: 5px 15px;
+    background: white;
+    cursor: pointer;
+}
+
+.form_btn:hover {
+    background: #8fe25f;
+    color: white;
+}
+
+.form_btn_group {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+    margin-top: 30px;
+}
