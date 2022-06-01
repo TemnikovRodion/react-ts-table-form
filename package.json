@@ -1,7 +1,7 @@
 {
   "name": "react-ts-table-form",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://temnikovrodion.github.io/react-ts-table-form/",
   "dependencies": {
     "@fontsource/roboto": "^4.5.7",
     "@reduxjs/toolkit": "^1.8.1",
